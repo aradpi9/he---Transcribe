@@ -27,6 +27,3 @@ if choice == "Upload":
         st.download_button('Download', result.replace(".", ".\n"), file_name="transcribed.txt")
         st.audio(wav_file)
         st.text(result['text'].replace(".", ".\n"))
-
-if choice == "Transcribe"
-    st.text("# :)")
