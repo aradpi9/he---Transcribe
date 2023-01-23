@@ -1,3 +1,12 @@
+pip install git+https://github.com/openai/whisper.git 
+pip install pydub
+!pip install -q streamlit
+pip install pathlib
+
+
+
+
+
 import streamlit as st
 import whisper
 from pydub import AudioSegment
